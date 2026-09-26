@@ -27,7 +27,7 @@ Use the **API Keys** tab of the **Access Management** screen to manage your keys
 
     ![images/rc/access-management-api-keys-tab.png](https://redis.io/docs/latest/images/rc/access-management-api-keys-tab.png)
 
-If an **Enable API** button appears, select it to [enable the REST API](https://redis.io/docs/latest/operate/rc/api/get-started/enable-the-api.md) for your account.
+If an **Enable API** button appears, select it to [enable the REST API](https://redis.io/docs/latest/operate/rc/api/get-started/enable-the-api) for your account.
 
 ![images/rc/button-access-management-enable-api.png](https://redis.io/docs/latest/images/rc/button-access-management-enable-api.png)
 
@@ -76,10 +76,9 @@ When you do this, the **API user key** dialog appears.
 
 ![images/rc/access-management-create-user-key.png](https://redis.io/docs/latest/images/rc/access-management-create-user-key.png)<br/>
 
-
-This is the only time the value of the user key is available.  Save it to a secure location before closing the dialog box.  <br/><br/>
-If you lose the user key value, it cannot be retrieved.  If this happens, create a new key to replace the lost one.
-
+> [!WARNING]
+> This is the only time the value of the user key is available.  Save it to a secure location before closing the dialog box.  <br/><br/>
+> If you lose the user key value, it cannot be retrieved.  If this happens, create a new key to replace the lost one.
 
 The **Finish** button is inactive until you copy the key to the clipboard. After you save the user key, you can also select **Copy account key** to save the account key.
 

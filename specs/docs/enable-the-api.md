@@ -38,8 +38,7 @@ To authenticate REST API calls, you need to use both the API account key and an 
 
 Only account owners can see the access key in the account settings and give API access to other users.
 
+> [!WARNING]
+> Make sure that you keep your access keys secret. Anyone who sends an API request with a valid access key can make changes to your account.
 
-Make sure that you keep your access keys secret. Anyone who sends an API request with a valid access key can make changes to your account.
-
-
-To manage your API keys or to limit IP addresses for user keys, see [Manage API keys](https://redis.io/docs/latest/operate/rc/api/get-started/manage-api-keys.md).
+To manage your API keys or to limit IP addresses for user keys, see [Manage API keys](https://redis.io/docs/latest/operate/rc/api/get-started/manage-api-keys).

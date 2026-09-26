@@ -25,23 +25,23 @@ You can use the API to:
 
 ## Get started
 
-1. [Enable the API](https://redis.io/docs/latest/operate/rc/api/get-started/enable-the-api.md)
+1. [Enable the API](https://redis.io/docs/latest/operate/rc/api/get-started/enable-the-api)
 1. [Authenticate and authorize](https://redis.io/docs/latest/operate/rc/api/get-started)
-1. [Create API keys](https://redis.io/docs/latest/operate/rc/api/get-started/manage-api-keys.md)
-1. [Use the API](https://redis.io/docs/latest/operate/rc/api/get-started/use-rest-api.md)
-1. [Learn the API lifecycle](https://redis.io/docs/latest/operate/rc/api/get-started/process-lifecycle.md)
-1. [Create and manage subscriptions](https://redis.io/docs/latest/operate/rc/api/examples/manage-subscriptions.md)
+1. [Create API keys](https://redis.io/docs/latest/operate/rc/api/get-started/manage-api-keys)
+1. [Use the API](https://redis.io/docs/latest/operate/rc/api/get-started/use-rest-api)
+1. [Learn the API lifecycle](https://redis.io/docs/latest/operate/rc/api/get-started/process-lifecycle)
+1. [Create and manage subscriptions](https://redis.io/docs/latest/operate/rc/api/examples/manage-subscriptions)
 
 ## Examples
 
-1. [Manage subscriptions](https://redis.io/docs/latest/operate/rc/api/examples/manage-subscriptions.md)
+1. [Manage subscriptions](https://redis.io/docs/latest/operate/rc/api/examples/manage-subscriptions)
 1. Database examples
     - [Create and manage databases](https://redis.io/docs/latest/operate/rc/api/examples/create-database)
-    - [Back up and import data](https://redis.io/docs/latest/operate/rc/api/examples/back-up-and-import-data.md)
-1. [Estimate costs](https://redis.io/docs/latest/operate/rc/api/examples/dryrun-cost-estimates.md)
+    - [Back up and import data](https://redis.io/docs/latest/operate/rc/api/examples/back-up-and-import-data)
+1. [Estimate costs](https://redis.io/docs/latest/operate/rc/api/examples/dryrun-cost-estimates)
     
 ## More info
 
-- Use the [Redis Cloud API](https://redis.io/docs/latest/operate/rc/api/get-started/use-rest-api.md)
+- Use the [Redis Cloud API](https://redis.io/docs/latest/operate/rc/api/get-started/use-rest-api)
 - [Full API Reference](https://redis.io/docs/latest/operate/rc/api/api-reference)
 - Secure [authentication and authorization](https://redis.io/docs/latest/operate/rc/api/get-started)

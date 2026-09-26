@@ -15,7 +15,7 @@
 
 Redis Cloud owners and viewers can leverage a REST API that permits operations against a variety of resources, including subscriptions, databases, and related infrastructure.
 
-[Once it's enabled](https://redis.io/docs/latest/operate/rc/api/get-started/enable-the-api.md), you can use the REST API to create, update, and delete subscriptions, databases, and other entities.
+[Once it's enabled](https://redis.io/docs/latest/operate/rc/api/get-started/enable-the-api), you can use the REST API to create, update, and delete subscriptions, databases, and other entities.
 
 All create, update, and delete API operations (`POST`, `PUT`, and `DELETE`) and some query operations (`GET`) run asynchronously, which means that provisioning or processing occurs in the background.  When you submit a request, a background process, known as a **Task**, starts working on it.  The response object includes an ID that lets you determine the status of the background process as it works.
 
@@ -49,18 +49,16 @@ During the processing of a request, the task moves through these states:
 - `processing-error` - Request processing failed.
     A detailed cause or reason is included in the task status JSON response.
 
-
-A task that reaches the `received` state cannot be cancelled and it will await completion (i.e. processing and provisioning). If you wish to undo an operation that was performed by a task, perform a compensating action (for example: delete a subscription that was created unintentionally)
-
+> [!NOTE]
+> A task that reaches the `received` state cannot be cancelled and it will await completion (i.e. processing and provisioning). If you wish to undo an operation that was performed by a task, perform a compensating action (for example: delete a subscription that was created unintentionally)
 
 ## Task provisioning phase
 
 When the processing phase succeeds and the task is in the `processing-completed` state, the provisioning phase starts.
 During the provisioning phase, the API orchestrates all of the infrastructure, resources, and dependencies required by the request.
 
-
-The term "provisioning" refers to all infrastructure changes required in order to apply the request. This includes provisioning new or additional infrastructure.
-
+> [!NOTE]
+> The term "provisioning" refers to all infrastructure changes required in order to apply the request. This includes provisioning new or additional infrastructure.
 
 The provisioning phase may require several minutes to complete. You can query the resource identifier to track the progress of the provisioning phase.
 
