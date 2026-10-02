@@ -24,15 +24,15 @@ To enable the API:
 1. From the menu, choose **Access Management**.
 1. When the **Access Management** screen appears, select the **API Keys** tab.
 
-    ![images/rc/access-management-api-keys-tab.png](https://redis.io/docs/latest/images/rc/access-management-api-keys-tab.png)
+    ![Use the **API Keys** tab of the **Access Management** screen to manage your REST API keys.](https://redis.io/docs/latest/images/rc/access-management-api-keys-tab.png)
 
 1. If a **Copy** button appears to the right of the API account key, the API is enabled.  This button copies the account key to the Clipboard.
 
-    ![images/rc/button-copy.png](https://redis.io/docs/latest/images/rc/button-copy.png)
+    ![Use the **Copy** button to copy the access key to the Clipboard.](https://redis.io/docs/latest/images/rc/button-copy.png)
 
     If you see an **Enable API** button, select it to enable the API and generate your API account key.
 
-    ![images/rc/button-access-management-enable-api.png](https://redis.io/docs/latest/images/rc/button-access-management-enable-api.png)
+    ![Use the **Enable API** button to enable the REST API for your account.](https://redis.io/docs/latest/images/rc/button-access-management-enable-api.png)
 
 To authenticate REST API calls, you need to use both the API account key and an [API user key](https://redis.io/docs/latest/operate/rc/api/get-started/manage-api-keys#api-user-keys) to make API calls.
 
