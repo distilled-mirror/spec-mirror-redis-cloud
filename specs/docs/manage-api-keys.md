@@ -74,7 +74,7 @@ Select **Create** to create the new key.
 
 When you do this, the **API user key** dialog appears.
 
-![images/rc/access-management-create-user-key.png](https://redis.io/docs/latest/images/rc/access-management-create-user-key.png)<br/>
+![The **API user key** dialog lets you copy the value of the new key to the Clipboard.](https://redis.io/docs/latest/images/rc/access-management-create-user-key.png)
 
 > [!WARNING]
 > This is the only time the value of the user key is available.  Save it to a secure location before closing the dialog box.  <br/><br/>
@@ -88,7 +88,7 @@ To delete a user key:
 
 1.  Use the **API Keys** tab of the **Access Management** screen to locate the target key. Hover over the key to display the **Delete** button.
 
-    ![images/rc/access-management-api-user-key-delete.png](https://redis.io/docs/latest/images/rc/access-management-api-user-key-delete.png)<br/>
+    ![The **Delete** button appears to the right of the selected user key.](https://redis.io/docs/latest/images/rc/access-management-api-user-key-delete.png)
 
 2.  Select the **Delete** button.
 
@@ -96,7 +96,7 @@ To delete a user key:
 
 3.  This displays the **Delete API secret key** dialog box.  
 
-    ![images/rc/access-management-delete-api-secret-key.png](https://redis.io/docs/latest/images/rc/access-management-delete-api-secret-key.png)<br/>
+    ![The **Delete** button appears to the right of the selected user key.](https://redis.io/docs/latest/images/rc/access-management-delete-api-secret-key.png)
 
     Select the **Delete** button to confirm.
 
