@@ -2,7 +2,7 @@
 
 ```json metadata
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "title": "Redis Cloud REST API",
   "description": "Describes the Redis Cloud REST API and links to additional info",
   "categories": ["docs","operate","rc"],

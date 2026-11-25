@@ -2,7 +2,7 @@
 
 ```json metadata
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "title": "Manage API keys",
   "description": "How to use the Redis Cloud console to create and manage API user keys for your account's team owners",
   "categories": ["docs","operate","rc"],

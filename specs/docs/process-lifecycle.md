@@ -2,7 +2,7 @@
 
 ```json metadata
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "title": "The API request lifecycle",
   "description": "API requests follow specific lifecycle phases and states, based on the complexity and length of execution of the operation.",
   "categories": ["docs","operate","rc"],

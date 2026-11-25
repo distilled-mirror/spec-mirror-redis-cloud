@@ -2,7 +2,7 @@
 
 ```json metadata
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "title": "Enable the API",
   "description": "Use the Redis Cloud dashboard to enable the REST API.",
   "categories": ["docs","operate","rc"],

@@ -2,7 +2,7 @@
 
 ```json metadata
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "title": "Use the REST API",
   "description": "How to use the API with various tools (especially `cURL`)",
   "categories": ["docs","operate","rc"],
